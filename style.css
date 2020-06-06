@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tinos', serif;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+.nav-link
+{
+    font-size: 24px;
+}
+
+
+
+.footer-top
+{
+
+    background-color:  #008080
+    ;
+padding: 40px 0;
+    margin-top: 70px;
+    color:black;
+    
+}
+
+
+
+.segment-one p{
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+
+.segment-two h2{
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+
+
+.segment-two a
+{
+    font-size: 20px;
+    margin: 12px 0;
+}
+
+
+@media only screen  and (min-width: 768 px) and (max-width: 991px) 
+{
+    .md-mb-30
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen  and (min-width: 767 px)
+{
+    .sm-mb-30
+    {
+        margin-bottom: 30px;
+    }
+
+    .footer-top
+    {
+        padding: 50px 0;
+    }
+}
+
+.footer-bottom-text
+{
+    text-align: left;
+    line-height: 75px;
+    color: white    ;
+    font-size: 17px;
+
+}
